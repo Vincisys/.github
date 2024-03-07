@@ -1,5 +1,5 @@
 title: "[ADR] "
-labels: ["ADR"]
+labels: [ADR]
 body:
   - type: textarea
     id: status
@@ -37,7 +37,9 @@ body:
       render: markdown
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: consequences
     attributes:
       label: Notas extras
       value: 
+      render: markdown
