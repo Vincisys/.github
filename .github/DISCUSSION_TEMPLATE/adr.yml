@@ -1,0 +1,43 @@
+title: "[ADR] "
+labels: ["ADR"]
+body:
+  - type: textarea
+    id: status
+    attributes:
+      label: Status
+      description: "Qual é o status deste documento? (ex.: Proposta, Aceito, Rejeitado, Descontinuado, Suplantado)"
+      value: 
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: "Qual o problema que motiva este documento. Detalhe o máximo possível."
+      value: 
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decisão
+      description: "Qual foi a solução tomada para resolver o problema?"
+      value: 
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequências
+      description: "O que fica mais fácil ou difícil de fazer com essa decisão?"
+      value: 
+      render: markdown
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      label: Notas extras
+      value: 
