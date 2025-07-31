@@ -1,5 +1,5 @@
-title: "[ADR] "
-labels: [ADR]
+title: "[Proposta] "
+labels: [Proposta]
 body:
   - type: textarea
     id: status
@@ -11,35 +11,8 @@ body:
     validations:
       required: true
   - type: textarea
-    id: context
+    id: content
     attributes:
-      label: Contexto
-      description: "Qual o problema que motiva este documento. Detalhe o máximo possível."
-      value: 
-      render: markdown
-    validations:
-      required: true
-  - type: textarea
-    id: decision
-    attributes:
-      label: Decisão
-      description: "Qual foi a solução tomada para resolver o problema?"
-      value: 
-      render: markdown
-    validations:
-      required: true
-  - type: textarea
-    id: consequences
-    attributes:
-      label: Consequências
-      description: "O que fica mais fácil ou difícil de fazer com essa decisão?"
-      value: 
-      render: markdown
-    validations:
-      required: true
-  - type: textarea
-    id: consequences
-    attributes:
-      label: Notas extras
+      label: Conteudo
       value: 
       render: markdown
