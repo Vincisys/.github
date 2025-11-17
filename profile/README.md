@@ -1,5 +1,6 @@
 <p align="left">
-  <img src="./assets/eyesonasset-logo.png" alt="Logo EyesOnAsset" height="110">
+  ![](./assets/eyesonasset-logo-dark.png#gh-dark-mode-only)
+  ![](./assets/eyesonasset-logo-light.png#gh-light-mode-only)
 
   [Website](https://www.eyesonasset.ai)
 </p>
